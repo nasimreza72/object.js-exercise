@@ -40,8 +40,34 @@ let onlShop ={
       }
       console.log(cityFact.cityDetails());
       
-    // parisFacts({
-    //     name: "Tokyo",
-    //     population: "13,929,286",
-    //     continent: "Asia"
-    //   }) ➞ "Tokyo has a population of 13,929,286 and is situated in Asia"
+// to get random number
+
+let names = [
+  'Adrean',
+  'Murad',
+  'Henrik',
+  'Ronny',
+  'Darren',
+  'Ashley',
+  'Nasim',
+  'Monika',
+  'Latifah',
+  'Melanie',
+  'Ivo',
+  'Ruslan',
+  'Brain',
+  'Hallie',
+  'Eleni',
+  'Angela',
+  'Omer',
+  'Matthias'
+  ]
+  
+  
+  let randomNumer = Math.floor(Math.random() * 19)
+  
+  function randomizer(randomN) {
+  return `${names[randomN]} has been randomly selected to do the live coding!\nLet\'s go!`
+  }
+  
+  console.log(randomizer(randomNumer)) 
